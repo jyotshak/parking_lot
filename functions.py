@@ -94,6 +94,7 @@ class Lot:
         for x in self.slots:
             if x!="Empty":
                 print(str(temp)+"  "+x[0]+"  "+x[1])
+            temp=temp+1
                 
             
                     
